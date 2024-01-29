@@ -1,0 +1,16 @@
+[package]
+name = "jarvis"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+audiotags = "0.4.1"
+cpal = { version = "0.15.2", features = ["jack"] }
+hound = "3.5.1"
+rayon = "1.8.1"
+serde = "1.0.196"
+serde_json = "1.0.113"
+symphonia = { version = "0.5.3", features = ["all", "symphonia-bundle-mp3", "mpa"] }
+walkdir = "2.4.0"
